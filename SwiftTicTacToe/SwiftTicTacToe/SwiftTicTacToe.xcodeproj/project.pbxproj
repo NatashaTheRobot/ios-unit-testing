@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B7596564F1070FC55BD8F26A /* Pods_SwiftTicTacToeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE325466F655010F61CEA01 /* Pods_SwiftTicTacToeUITests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		E44F4C5FD409629C0AE053C0 /* Pods_SwiftTicTacToeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EA8B3A21153BB437CCB4DA /* Pods_SwiftTicTacToeTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B7596564F1070FC55BD8F26A /* Pods_SwiftTicTacToeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE325466F655010F61CEA01 /* Pods_SwiftTicTacToeUITests.framework */; };
+		E44F4C5FD409629C0AE053C0 /* Pods_SwiftTicTacToeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EA8B3A21153BB437CCB4DA /* Pods_SwiftTicTacToeTests.framework */; };
 		FA9BE1F61BAD76BD0016A7F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9BE1F51BAD76BD0016A7F7 /* AppDelegate.swift */; };
 		FA9BE1F81BAD76BD0016A7F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9BE1F71BAD76BD0016A7F7 /* ViewController.swift */; };
 		FA9BE1FB1BAD76BD0016A7F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9BE1F91BAD76BD0016A7F7 /* Main.storyboard */; };
