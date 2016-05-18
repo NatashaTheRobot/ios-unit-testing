@@ -38,8 +38,8 @@
 		4CCCD9301A97A8B900AB451F /* EndGameViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCD92F1A97A8B900AB451F /* EndGameViewControllerTest.m */; };
 		4CCCD9331A9B10AE00AB451F /* EndGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCD9321A9B10AE00AB451F /* EndGameView.m */; };
 		4CE037C11AA77AA10046956E /* TicTacToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE037C01AA77AA10046956E /* TicTacToeTests.m */; };
-		4CE037CF1AA77B830046956E /* libKIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE037CA1AA77B0D0046956E /* libKIF.a */; };
 		4CE037D11AA77B8A0046956E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE037D01AA77B8A0046956E /* CoreGraphics.framework */; };
+		FA1FD58A1CECD7CD003221E1 /* KIF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1FD5851CECD732003221E1 /* KIF.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,26 +57,47 @@
 			remoteGlobalIDString = 4CCCD8A61A8CEC7A00AB451F;
 			remoteInfo = TicTacToe;
 		};
-		4CE037C91AA77B0D0046956E /* PBXContainerItemProxy */ = {
+		FA1FD57E1CECD732003221E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4CE037C21AA77B0D0046956E /* KIF.xcodeproj */;
+			containerPortal = FA1FD5741CECD732003221E1 /* KIF.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EABD46AA1857A0C700A5F081;
 			remoteInfo = KIF;
 		};
-		4CE037CB1AA77B0D0046956E /* PBXContainerItemProxy */ = {
+		FA1FD5801CECD732003221E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4CE037C21AA77B0D0046956E /* KIF.xcodeproj */;
+			containerPortal = FA1FD5741CECD732003221E1 /* KIF.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EB60ECC1177F8C83005A041A;
 			remoteInfo = "Test Host";
 		};
-		4CE037CD1AA77B0D0046956E /* PBXContainerItemProxy */ = {
+		FA1FD5821CECD732003221E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 4CE037C21AA77B0D0046956E /* KIF.xcodeproj */;
+			containerPortal = FA1FD5741CECD732003221E1 /* KIF.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EABD46CD1857A0F300A5F081;
 			remoteInfo = "KIF Tests";
+		};
+		FA1FD5841CECD732003221E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA1FD5741CECD732003221E1 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9CC9673B1AD4B1B600576D13;
+			remoteInfo = KIFFramework;
+		};
+		FA1FD5861CECD732003221E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA1FD5741CECD732003221E1 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAB89FFC1CAC546900C6DFC1;
+			remoteInfo = KIFFrameworkConsumer;
+		};
+		FA1FD5881CECD732003221E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA1FD5741CECD732003221E1 /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAB8A0141CAC546A00C6DFC1;
+			remoteInfo = KIFFrameworkConsumerTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -143,8 +164,8 @@
 		4CE037B71AA77A650046956E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CE037BF1AA77AA10046956E /* TicTacToeTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToeTests.h; sourceTree = "<group>"; };
 		4CE037C01AA77AA10046956E /* TicTacToeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicTacToeTests.m; sourceTree = "<group>"; };
-		4CE037C21AA77B0D0046956E /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = ../../KIF/KIF.xcodeproj; sourceTree = "<group>"; };
 		4CE037D01AA77B8A0046956E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA1FD5741CECD732003221E1 /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = ../../KIF/KIF.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,8 +189,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1FD58A1CECD7CD003221E1 /* KIF.framework in Frameworks */,
 				4CE037D11AA77B8A0046956E /* CoreGraphics.framework in Frameworks */,
-				4CE037CF1AA77B830046956E /* libKIF.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +411,7 @@
 		4CE037B51AA77A650046956E /* TicTacToeKIFTests */ = {
 			isa = PBXGroup;
 			children = (
-				4CE037C21AA77B0D0046956E /* KIF.xcodeproj */,
+				FA1FD5741CECD732003221E1 /* KIF.xcodeproj */,
 				4CE037B61AA77A650046956E /* Supporting Files */,
 				4CE037BF1AA77AA10046956E /* TicTacToeTests.h */,
 				4CE037C01AA77AA10046956E /* TicTacToeTests.m */,
@@ -406,12 +427,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4CE037C31AA77B0D0046956E /* Products */ = {
+		FA1FD5751CECD732003221E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4CE037CA1AA77B0D0046956E /* libKIF.a */,
-				4CE037CC1AA77B0D0046956E /* Test Host.app */,
-				4CE037CE1AA77B0D0046956E /* KIF Tests - XCTest.xctest */,
+				FA1FD57F1CECD732003221E1 /* libKIF.a */,
+				FA1FD5811CECD732003221E1 /* Test Host.app */,
+				FA1FD5831CECD732003221E1 /* KIF Tests - XCTest.xctest */,
+				FA1FD5851CECD732003221E1 /* KIF.framework */,
+				FA1FD5871CECD732003221E1 /* KIFFrameworkConsumer.app */,
+				FA1FD5891CECD732003221E1 /* KIFFrameworkConsumerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -507,8 +531,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 4CE037C31AA77B0D0046956E /* Products */;
-					ProjectRef = 4CE037C21AA77B0D0046956E /* KIF.xcodeproj */;
+					ProductGroup = FA1FD5751CECD732003221E1 /* Products */;
+					ProjectRef = FA1FD5741CECD732003221E1 /* KIF.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -521,25 +545,46 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		4CE037CA1AA77B0D0046956E /* libKIF.a */ = {
+		FA1FD57F1CECD732003221E1 /* libKIF.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libKIF.a;
-			remoteRef = 4CE037C91AA77B0D0046956E /* PBXContainerItemProxy */;
+			remoteRef = FA1FD57E1CECD732003221E1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4CE037CC1AA77B0D0046956E /* Test Host.app */ = {
+		FA1FD5811CECD732003221E1 /* Test Host.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = "Test Host.app";
-			remoteRef = 4CE037CB1AA77B0D0046956E /* PBXContainerItemProxy */;
+			remoteRef = FA1FD5801CECD732003221E1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		4CE037CE1AA77B0D0046956E /* KIF Tests - XCTest.xctest */ = {
+		FA1FD5831CECD732003221E1 /* KIF Tests - XCTest.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "KIF Tests - XCTest.xctest";
-			remoteRef = 4CE037CD1AA77B0D0046956E /* PBXContainerItemProxy */;
+			remoteRef = FA1FD5821CECD732003221E1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA1FD5851CECD732003221E1 /* KIF.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KIF.framework;
+			remoteRef = FA1FD5841CECD732003221E1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA1FD5871CECD732003221E1 /* KIFFrameworkConsumer.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = KIFFrameworkConsumer.app;
+			remoteRef = FA1FD5861CECD732003221E1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FA1FD5891CECD732003221E1 /* KIFFrameworkConsumerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KIFFrameworkConsumerTests.xctest;
+			remoteRef = FA1FD5881CECD732003221E1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
